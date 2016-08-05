@@ -65,14 +65,16 @@ class Build
     {
         $parameters = array();
 
-        if (!property_exists($this->build->actions[0], 'parameters')) {
-            return $parameters;
+        foreach($this->build->actions as $actions) {
+            if (property_exists($actions, 'parameters'))
+            {
+                foreach ($actions->parameters as $parameter)
+                {
+                    $parameters[$parameter->name] = $parameter->value;
+                }
+                return $parameters;
+            }
         }
-
-        foreach ($this->build->actions[0]->parameters as $parameter) {
-            $parameters[$parameter->name] = $parameter->value;
-        }
-
         return $parameters;
     }
 
