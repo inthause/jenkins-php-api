@@ -1,9 +1,9 @@
 {
-  "name": "jenkins-khan/jenkins-api",
+  "name": "Phibo3/jenkins-php-api",
   "type": "library",
   "description": "Jenkins PHP API",
   "keywords": ["jenkins", "api"],
-  "homepage": "https://github.com/jenkins-khan/jenkins-php-api",
+  "homepage": "https://github.com/Phibo3/jenkins-php-api",
   "license": "MIT",
   "autoload": {
     "psr-4": {
