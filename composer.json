@@ -1,5 +1,5 @@
 {
-  "name": "Phibo3/jenkins-php-api",
+  "name": "phibo3/jenkins-php-api",
   "type": "library",
   "description": "Jenkins PHP API",
   "keywords": ["jenkins", "api"],
