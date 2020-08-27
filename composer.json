@@ -1,9 +1,9 @@
 {
-  "name": "phibo3/jenkins-php-api",
+  "name": "inthause/jenkins-php-api",
   "type": "library",
   "description": "Jenkins PHP API",
   "keywords": ["jenkins", "api"],
-  "homepage": "https://github.com/Phibo3/jenkins-php-api",
+  "homepage": "https://github.com/inthause/jenkins-php-api",
   "license": "MIT",
   "autoload": {
     "psr-4": {
